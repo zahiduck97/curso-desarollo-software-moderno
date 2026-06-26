@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springDemo
+
+  datasource:
+    url: jdbc:postgresql://db.xzzyztfwuwtygphqbspx.supabase.co:5432/postgres
+    username: postgres
+    password: ElghAhOuLR9AmCoj
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
